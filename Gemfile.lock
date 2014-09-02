@@ -1,0 +1,35 @@
+GIT
+  remote: git://github.com/soundcloud/soundcloud-ruby.git
+  revision: 4a9bc6b9a5f0b715558c32d6b92ff5f8bee86fca
+  specs:
+    soundcloud (0.3.2)
+      hashie (~> 2.0)
+      httmultiparty (~> 0.3.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dotenv (0.11.1)
+      dotenv-deployment (~> 0.0.2)
+    dotenv-deployment (0.0.2)
+    hashie (2.1.2)
+    httmultiparty (0.3.15)
+      httparty (>= 0.7.3)
+      mimemagic
+      multipart-post
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    mimemagic (0.2.1)
+    multi_xml (0.5.5)
+    multipart-post (2.0.0)
+    open_uri_redirections (0.1.4)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  dotenv
+  open_uri_redirections
+  soundcloud!
